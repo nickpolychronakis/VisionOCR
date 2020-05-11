@@ -3,6 +3,7 @@ import UIKit
 
 @available(iOS 13.0, *)
 public struct VisionOCR {
+    public init() {}
     /// Διαβάζει το κείμενο που υπάρχει σε ένα UIImage
     public func readImage(uiimage: UIImage) -> String {
         // Δημιουργώ το request (υπάρχουν διάφοροι τύποι, επέλεξα την ανάγνωση χαρακτήρων)
