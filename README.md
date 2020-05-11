@@ -1,3 +1,3 @@
 # VisionOCR
 
-A description of this package.
+Read text from a UIImage using Vision framework.
